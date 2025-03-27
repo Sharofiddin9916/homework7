@@ -1,0 +1,36 @@
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    overflow: hidden;
+    width: 250px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 243);
+    display: inline;
+
+}
+
+.card-image {
+    width: 240px;
+    height: 100px;
+    text-align: center;
+    /* border-radius: 50%; */
+    object-fit: contain;
+    background-color:white
+}
+.p1{
+    display: inline;
+    font-family: sans-serif ;
+    
+}
